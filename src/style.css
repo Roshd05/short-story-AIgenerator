@@ -35,14 +35,15 @@ header {
   font-size: 18px;
   border-radius: 50px;
   line-height: 20px;
+  color: #272044;
 }
 
 .submit-button {
-  margin-left: 13px;
+  margin-left: 10px;
   background: hotpink;
   border: none;
-  width: 180px;
-  font-size: 18px;
+  width: 120px;
+  font-size: 16px;
   border-radius: 50px;
   padding: 15px 25px;
 }
