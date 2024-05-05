@@ -13,7 +13,7 @@ function generateStory(event) {
   let instructionsInput = document.querySelector("#user-story");
   let apiKey = "840df5b063f365oba39tb282d8c1d0cc";
   let context =
-    "You are very smart and have a lot of information and history your mission is to create a short story about the topic the user choose as a topic and follow users instructions";
+    "You are very smart and have a lot of information and stories to tell, your mission is to create a short funny story of maximum 10 lines about the topic the user choose as a topic and follow users instructions";
   let promtp = `Users instructions: Generate a short story about ${instructionsInput.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
