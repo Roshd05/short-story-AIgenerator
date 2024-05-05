@@ -25,5 +25,5 @@ function generateStory(event) {
   axios.get(apiUrl).then(displayStory);
 }
 
-let storyformGenerator = document.querySelector("story-generator");
+let storyformGenerator = document.querySelector("#story-generator");
 storyformGenerator.addEventListener("submit", generateStory);
