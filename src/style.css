@@ -57,6 +57,7 @@ header {
 
 footer {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 40px;
+  font-style: initial;
 }
