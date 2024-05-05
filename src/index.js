@@ -15,8 +15,7 @@ function generateStory(event) {
   let content =
     "You are very smart and have a lot of information and history your mission is to create a short story about the topic the user choose as a topic and follow users instructions";
   let promtp = `Users instructions: Generate a short story about ${instructionsInput.value}`;
-  let apiUrl =
-    "https://api.shecodes.io/ai/v1/generate?prompt={prompt}&context={context}&key={key}";
+  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let storyElement = document.querySelector("#story");
   storyElement.classList.remove("hidden");
